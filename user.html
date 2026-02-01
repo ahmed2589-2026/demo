@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: firebrick; 
+    background-color: black; 
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: firebrick; /* Text color for dark mode */
+      background-color: #1a1a1a; /* Background color for dark mode */
+    }
+  }
+
+  .signature {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .contact-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .company-logo {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="signature">
+    <div class="contact-info">
+      <img src="profile_picture.jpg" alt="Profile Picture">
+      <div>
+        <div><strong>Your Name</strong></div>
+        <div><a href="https://www.linkedin.com/in/your-profile">LinkedIn</a></div>
+        <div>Email: your@email.com</div>
+        <div>Address: Your Address</div>
+        <div>Phone: Your Phone Number</div>
+      </div>
+    </div>
+    <div>
+      <div><strong>Your Company Name</strong></div>
+      <div>Title: Your Title</div>
+      <img class="company-logo" src="company_logo.png" alt="Company Logo">
+    </div>
+  </div>
+</body>
+</html>
+
